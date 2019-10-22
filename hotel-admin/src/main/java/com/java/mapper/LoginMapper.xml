@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.java.mapper.LoginMapper">
+
+   <resultMap id="BaseOneMenu" type="com.java.pojo.OneMenu">
+       <result property="oneId" column="oneId" javaType="Long"/>
+       <result property="oneName" column="oneName" javaType="String"/>
+       <collection property="twoMenuList" ofType="com.java.pojo.TwoMenu">
+           <result property="twoId" column="twoId" javaType="Long"/>
+           <result property="twoName" column="twoName" javaType="String"/>
+           <result property="url" column="url" javaType="String"/>
+           <result property="parent" column="parent" javaType="Long"/>
+
+       </collection>
+
+   </resultMap>
+
+    <!--根据用户id获取具体的权限-->
+    <select id="getAuthorityByUserID" resultMap="BaseOneMenu" parameterType="Long">
+select * from
+-- 查询出id=6这个用户的所有一级权限
+(select sa.id as oneId,sa.authority_name as oneName  from system_authority as sa
+INNER JOIN  user_authority as ua on sa.id=ua.authority_id
+INNER JOIN system_user as su on su.id=ua.user_id where su.id=#{0} and parent=0) t1
+
+INNER JOIN
+-- 查询出id=6这个用户所有的二级权限
+(select sa.id as twoId,sa.authority_name as twoName ,sa.authority_url as url,
+sa.parent from  system_authority as sa
+INNER JOIN user_authority as ua on sa.id=ua.authority_id
+INNER JOIN system_user as su on ua.user_id=su.id where su.id =#{0} and parent!=0) t2
+
+on t1.oneId=t2.parent
+
+
+    </select>
+
+</mapper>

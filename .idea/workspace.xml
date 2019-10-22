@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="hotel-admin:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1c9c6251-d44e-4edd-9408-81ab599d21ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/java/com/java/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/java/com/java/mapper/LoginMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/java/com/java/mapper/LoginMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/resources/mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/resources/spy.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/bill/billinfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/bill/checkin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/bill/checkin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/bill/inroominfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/bill/out.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/bill/showCost.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/error/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/error/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/left.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/order/addOrder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/room/addRoom.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/room/showRoom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/room/showRoomType.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/showInRoomInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/user/addSystemUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/user/showSystemUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/vip/addvip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/vip/vip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/vue-v-for.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/vue1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/vue2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/vue3.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/vue4.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/vue_life.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/css/select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/kindeditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_02.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_03.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_04.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_05.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_06.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_07.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_08.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_09.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/emoticons/etc_36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/flash.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/link.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/media.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/plainpaste.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/remote_image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/plugins/wordpaste.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/skins/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/skins/default.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/skins/div.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/skins/dl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/skins/editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/skins/ol.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/skins/p.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/skins/tinymce.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/skins/tinymce.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/editor/skins/ul.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/ICO-066.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/big-circle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/btnbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/btnbg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/btnbg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/btnbg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/btnbg4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/buttonbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/bz00.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/bz01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/bz02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/c02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/c03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/cbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/clist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/close1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/d01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/d02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/d03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/d04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/d05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/d06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/d07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/diskbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/f01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/f02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/f03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/f04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/f05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/f06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/fjt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/ge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/i04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/i06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/i07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/i08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/iadd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/ibtnbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/ico01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/ico02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/ico03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/ico04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/ico05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/ico06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/icon01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/icon02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/icon03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/icon06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/icon07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/icon08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/icon09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/icon10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/icon11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/icon12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/icon13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/icon15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/icon16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/icon17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/icon18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/img01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/inputbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/itabbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/itabbg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/jszc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/jtx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/l01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/l02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/l03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/l04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/lbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/lbg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/lc00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/lc01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/lc02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/lc03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/lc04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/lc05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/lc06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/leftico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/leftico01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/leftico02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/leftico03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/leftico04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/leftline.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/leftmenubg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/lefttop.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/libg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/light1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/line.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/line1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/list.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/list1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/list2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/loginbg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/loginbg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/loginbg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/loginbg4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/logininfo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/logininfo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/logininfo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/logininfo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/loginpassword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/loginsj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/loginuser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/msg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/navbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/next.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/pre.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/px.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/righttop.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/rlist.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/sj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/sub-menu-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/sun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/t01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/t02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/t03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/t04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/t05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/tbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/tcbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/th.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/ticon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/toolbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/topbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/topleft.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/topright.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/ub1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/uew_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/uew_icon_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/ulist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/userbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/images/yzmbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/js/PIE.htc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/js/bootstrap/bootstrap-paginator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/js/bootstrap/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/js/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/js/bootstrap/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/js/cloud.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/js/format+zh_CN,default,corechart.I.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/js/jquery-2.1.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/js/jquery.ba-resize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/js/jquery.gvChart-1.0.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/js/jquery.idTabs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/js/jsapi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/js/jsonHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/js/laydate/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/js/laydate/need/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/js/laydate/skins/dahong/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/js/laydate/skins/dahong/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/js/laydate/skins/danlan/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/js/laydate/skins/danlan/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/js/laydate/skins/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/js/laydate/skins/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/js/laydate/skins/molv/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/js/laydate/skins/molv/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/js/laydate/skins/qianhuang/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/js/laydate/skins/qianhuang/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/js/laydate/skins/yahui/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/js/laydate/skins/yahui/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/js/laydate/skins/yalan/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/js/laydate/skins/yalan/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/js/select-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-admin/src/main/webapp/static/src/jquery.gvChart-1.0.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-commons/hotel-commons.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-commons/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-pojo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-pojo/src/main/java/com/java/pojo/OneMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel-pojo/src/main/java/com/java/pojo/TwoMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/hotel-commons/target/" />
+    <ignored path="$PROJECT_DIR$/hotel-pojo/target/" />
+    <ignored path="$PROJECT_DIR$/hotel-admin/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/hotel-admin/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/hotel-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/hotel-pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/hotel-pojo/src/main/java/com/java/pojo/Towmenu.java" />
+        <option value="$PROJECT_DIR$/hotel-pojo/src/main/java/com/java/pojo/TwoMenu.java" />
+        <option value="$PROJECT_DIR$/hotel-pojo/src/main/java/com/java/pojo/OneMenu.java" />
+        <option value="$PROJECT_DIR$/hotel-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/hotel-admin/src/main/java/com/java/mapper/LoginMapper.java" />
+        <option value="$PROJECT_DIR$/hotel-admin/src/main/java/com/java/mapper/LoginMapper.xml" />
+        <option value="$PROJECT_DIR$/hotel-admin/src/main/java/com/java/controller/LoginController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../maven/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\Java\maven\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hotel-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hotel-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="399" />
+    <option name="y" value="93" />
+    <option name="width" value="1400" />
+    <option name="height" value="971" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hotel-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotel-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hotel-admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotel-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hotel-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotel-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hotel-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotel-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hotel-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotel-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hotel-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotel-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hotel-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotel-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hotel-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571735828210" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Git/bin/git.exe" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\IdeaProjects\hotel-parent\hotel-admin\src\main\webapp\static" />
+      <recent name="D:\Java\IdeaProjects\hotel-parent\hotel-admin\src\main\webapp\pages" />
+      <recent name="D:\Java\IdeaProjects\hotel-parent\hotel-admin\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="tomcat7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.64" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="hotel-admin:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/hotel_admin" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_hotel-parent" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="javadebug" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="javadebug" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="hotel-admin:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c9c6251-d44e-4edd-9408-81ab599d21ef" name="Default Changelist" comment="" />
+      <created>1571313124609</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571313124609</updated>
+      <workItem from="1571313131438" duration="3605000" />
+      <workItem from="1571542249915" duration="3991000" />
+      <workItem from="1571713603898" duration="6032000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13628000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="399" y="93" width="1400" height="971" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2589552" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4368098" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32967034" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="JRebel Executor" order="15" />
+      <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.2824176" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="JRebel Setup Guide" order="9" weight="0.32889125" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_121/src.zip!/com/sun/org/apache/xerces/internal/util/ErrorHandlerWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="176" selection-start-line="176" selection-end-line="176" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotel-admin/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotel-admin/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-177" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotel-admin/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotel-admin/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotel-commons/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotel-pojo/src/main/java/com/java/pojo/Towmenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotel-admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="189" column="45" selection-start-line="189" selection-start-column="45" selection-end-line="189" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotel-pojo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotel-pojo/src/main/java/com/java/pojo/TwoMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" selection-start-line="11" selection-end-line="12" />
+          <folding>
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotel-pojo/src/main/java/com/java/pojo/OneMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotel-admin/src/main/java/com/java/mapper/LoginMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/bill/out.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotel-admin/src/main/webapp/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotel-admin/src/main/webapp/pages/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotel-admin/src/main/java/com/java/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotel-admin/src/main/java/com/java/mapper/LoginMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
